@@ -10,7 +10,6 @@ const navItem = [nav1, nav2, nav3, nav4, nav5];
 
 function navAnimation(direction1, direction2) {
     navItem.forEach((nav, i) => {
-        console.log(nav, i)
         nav.classList.replace(`slide-${direction1}-${i + 1}`, `slide-${direction2}-${i + 1}`)
     });
 }
